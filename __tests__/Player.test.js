@@ -3,8 +3,8 @@
 const Potion = require('../lib/Potion');
 
 // mocks/replaces the constructor's implementation with our faked data
-// now if new Potion() is ever called within the test file or susequent modules attached to thest, the mocked data will be returned
-jest.mock('../lib/Potion');
+// // now if new Potion() is ever called within the test file or susequent modules attached to thest, the mocked data will be returned
+// jest.mock('../lib/Potion');
 
 // first thing we do is add the require statement
 // npm run test Player --> in order to run this test in the terminal
